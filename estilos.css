@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.nav__inicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-right: 4%;
+}
+
+
+.ul__main{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image:url(./img/fondo.png) ;
+    background-size: cover;
+
+} 
+.main__video{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.logo__empresa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img__empresas{ 
+    margin: 0.5rem;
+}
+.lista__empresas{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.carousel-item img {
+    max-height: 400px; /* Altura máxima deseada para las imágenes */
+    object-fit: cover; /* Ajustar la imagen sin deformarla */
+  }
+.h2__productos{
+    text-align: center;
+    margin: 0;
+  
+}
+
+.lista__productos{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+}
+
+
+.a__productos{
+    text-decoration: none;
+    background-color: #d1dce3b6;
+    color: rgb(0, 0, 0);
+    border: solid 5px rgba(0, 0, 0, 0.282);
+    padding: 1rem 2rem; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}  
+.a__productos:hover{
+    opacity: 1;
+    border: solid 4px rgba(30, 27, 196, 0.093);
+} 
+
+
+.img__gestoria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cajadeformulario{    
+  display: flex;
+ flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+    }
+
+.formulario{
+    background-color: #d1dce3b6;
+    list-style-type: none;
+    padding: 1rem;
+    width: 100px;
+    height: 100px;
+}
+
+
+.h3__footer{
+    text-align: center;
+    background-color:rgba(169, 169, 169, 0.036);
+    margin: 0;
+    padding: 2rem 0;
+    
+}
