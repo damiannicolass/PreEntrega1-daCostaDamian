@@ -32,7 +32,7 @@ else {
 }*/
 
 
-
+// PREENTREGA 2 
 
 const vehiculos = [
 { marca: "chevrolet", valorCuota: 10000},
